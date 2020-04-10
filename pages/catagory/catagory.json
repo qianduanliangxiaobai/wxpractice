@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-menu":"./w-menu/w-menu",
+    "w-catedata":"./w-catedata/w-catedata"
+
+  }
+}

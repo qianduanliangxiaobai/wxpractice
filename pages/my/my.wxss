@@ -1,0 +1,32 @@
+/* pages/my/my.wxss */
+.login{
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: paleturquoise;
+}
+.img{
+  
+  border-radius: 50% 10% 10% 50%;
+  width: 30%;
+  height: 40%;
+  margin: 32rpx;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  font-size: 40rpx;
+  width: 30%;
+  height: 30%;
+}
+.img2{
+  width: 10%;
+}
+.active{
+  display:none
+}
+.name{
+  font-size: 25rpx;
+  color: blue;
+}

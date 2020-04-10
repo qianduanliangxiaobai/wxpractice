@@ -1,0 +1,7 @@
+
+
+<view class="category">
+  
+       <w-menu titles="{{titles}}" bindtitleClick="handletitleClick" class="w-menu"/>
+      <w-catedata categoriesdata="{{categoriesdata}}" class="itemdata" />
+</view>

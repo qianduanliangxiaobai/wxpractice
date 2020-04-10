@@ -1,0 +1,24 @@
+.goods-item{
+  text-align: center;
+  color: blue;
+  padding-bottom:10rpx ;
+}
+
+.img{
+  width: 100%;
+  border-radius: 10rpx;
+}
+.desc-info{
+  left:0;
+  right:0;
+  bottom: 5rpx;
+}
+.title{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 29rpx;
+}
+.info{
+  font-size: 20rpx;
+}

@@ -1,0 +1,13 @@
+<scroll-view scroll-y class="menu1"> 
+    <!--pages/catagory/w-menu/w-menu.wxml-->
+
+<view class="menu" wx:for="{{titles}}" wx:key="index">
+    <view class="menu-item {{index==currentIndex?'active':''}}" 
+    bindtap="titleClick"
+    data-index="{{index}}"
+    >{{item}}</view>
+</view>
+
+
+
+</scroll-view>

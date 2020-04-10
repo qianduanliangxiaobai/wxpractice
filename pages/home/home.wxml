@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+
+<!-- 轮播图 -->
+<w-swiper images="{{banners}}" />
+<!-- 列表控制栏 -->
+<w-tab-control bindtabClick="handletabClick"  titles="{{titles}}" class="tab-control" />
+
+<!-- 商品数据 -->
+ <w-goods goodsList="{{goods[currentType].list}}"/>
+

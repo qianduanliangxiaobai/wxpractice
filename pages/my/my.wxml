@@ -1,0 +1,10 @@
+<!--pages/my/my.wxml-->
+
+<view class="login">
+    <image src="{{avatarUrl}}" class="img"></image>
+   <view class="info"> 
+      <button bindgetuserinfo="get" class="{{isActive?'':'active'}}" open-type="getUserInfo">登录/注册</button>
+      <text class="{{isActive?'active':''}} name">{{name}}</text>
+       <image src="{{avatarUrl}}" class="img2" mode="widthFix" ></image>
+   </view>
+</view>

@@ -1,0 +1,20 @@
+.content{
+  height: 100vh;
+}
+.total{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.catedata{
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+}
+.img{
+  width: 90%;
+}
+
+

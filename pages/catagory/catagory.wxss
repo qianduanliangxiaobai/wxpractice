@@ -1,0 +1,10 @@
+.category{
+  display: flex;
+
+}
+.w-menu{
+  width: 30%;
+}
+.itemdata{
+  width: 70%;
+}

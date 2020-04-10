@@ -1,0 +1,21 @@
+/* pages/catagory/w-menu/w-menu.wxss */
+/* pages/catagory/catagory.wxss */
+
+.menu1{
+  height: 100vh;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+}
+.menu-item{
+  background: cadetblue;
+  width: 98%;
+  text-align: center;
+  padding: 20rpx;
+  margin: 3rpx;
+}
+.active{
+  background:coral;
+}

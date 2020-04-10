@@ -1,0 +1,16 @@
+/* components/we-tab-control/w-tab-control.wxss */
+.w-tab{
+  display: flex;
+  flex-direction: row;
+  height: 6vh;
+}
+.tab-item{
+  flex-grow: 1;
+  text-align: center;
+  margin: 10rpx auto;
+  border-left:1px solid red;
+  
+}
+.active{
+  background: chartreuse;
+}
