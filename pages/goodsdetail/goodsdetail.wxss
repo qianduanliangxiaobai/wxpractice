@@ -1,1 +1,10 @@
 /* pages/goodsdetail/goodsdetail.wxss */
+.img{
+  width: 100%;
+  
+ 
+}
+
+.btn{
+  background: darkcyan;
+}

@@ -2,3 +2,6 @@
 .swiper{
   border: 3px solid burlywood;
 }
+.img{
+  width: 100%;
+}

@@ -1,1 +1,23 @@
 /* pages/cart/cart.wxss */
+.img{
+  width: 50%;
+  z-index: -1;
+  margin: 50rpx;
+  padding: 32rpx;
+
+}
+
+.count{
+  width: 100rpx;
+  height: 60rpx;
+  background: hotpink;
+  color:blue;
+  font-size: 40rpx;
+  border: 1rpx solid red ;
+  text-align: center;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

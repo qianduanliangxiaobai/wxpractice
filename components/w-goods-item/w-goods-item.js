@@ -21,6 +21,13 @@ Component({
    * 组件的方法列表
    */
   methods: {
+   navDetail(){
+     const iid=this.data.goodsitem.iid;
+     wx.navigateTo({
+       url: '/pages/goodsdetail/goodsdetail?iid='+iid
+     })
+     
+   }
    
   }
 })

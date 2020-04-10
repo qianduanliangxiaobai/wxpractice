@@ -68,6 +68,13 @@
 					"id": -1,
 					"name": "我的",
 					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "购物车",
+					"pathName": "pages/cart/cart",
 					"scene": null
 				}
 			]

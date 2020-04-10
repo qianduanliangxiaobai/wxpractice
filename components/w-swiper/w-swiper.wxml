@@ -4,7 +4,7 @@
    indicator-active-color="white"
    autoplay interval="4000" circular>
       <swiper-item class="swiper-item" wx:for="{{images}}" wx:key="index">  
-         <image src="{{item}}" mode="widthFix" />
+         <image src="{{item}}" mode="widthFix" class="img"/>
       </swiper-item>
    </swiper>
 

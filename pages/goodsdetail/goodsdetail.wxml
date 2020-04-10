@@ -1,2 +1,6 @@
 <!--pages/goodsdetail/goodsdetail.wxml-->
 <text>欢迎选购</text>
+<button bindtap="addCart"  class="btn">加入购物车</button>
+<view>
+<image src="{{image}}" class="img" mode="widthFix"></image>
+</view>

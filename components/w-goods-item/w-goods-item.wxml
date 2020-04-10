@@ -1,5 +1,5 @@
-<navigator url="/pages/goodsdetail/goodsdetail" open-type="navigate">
-    <view class="goods-item" >
+
+    <view class="goods-item"  bindtap="navDetail">
    <image class="img" src="{{goodsitem.show.img}}"></image>
     <view class="desc-info">
          <view class="title">{{goodsitem.title}}</view>
@@ -11,4 +11,3 @@
     </view>
 
 </view>
-</navigator>
